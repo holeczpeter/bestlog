@@ -10,7 +10,15 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+  metaInfo () {
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
+     
+    }
+  },
 }
 </script>
 
@@ -24,3 +32,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+
