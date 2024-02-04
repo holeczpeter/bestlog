@@ -4,7 +4,7 @@
     <About id="about"/>
     <Trucks id="trucks"/>
     <Services id="services"/>
-     <Partners id="partners"/>
+    <Partners id="partners"/>
     <Testimonials id="testimonials"/>
     <Contact id="contact"/>
    

@@ -6,8 +6,8 @@
                <div class="col-md-9 col-xs-12">
                   <div class="top-bar-info">
                      <ul class="ps-0">
-                        <li><i class="ti-mobile"></i>(+123) 456 7890</li>
-                        <li class="d-none d-sm-inline-block"><i class="ti-email"></i>addyour@emailhere</li>
+                        <li><i class="ti-mobile"></i>{{company.phone}}</li>
+                        <li class="d-none d-sm-inline-block"><i class="ti-email"></i>{{company.email}}</li>
                      </ul>
                   </div>
                </div>
@@ -45,8 +45,8 @@
                               <span v-if="item.hasChildren" 
                                  class="submenu-button">
                               </span>
-                              <a :href="`${$route.meta.basePath || ''}/`" v-scroll-to="item.routerlink" v-if=isHome>{{ item.title }}</a>
-                              <a :href="`${$route.meta.basePath || ''}/` + item.routerlink" v-if=!isHome>{{ item.title }}</a>
+                              <a :href="route.meta.basePath  + '/'" v-scroll-to="item.routerlink" v-if=isHome>{{ item.title }}</a>
+                              <a :href="route.meta.basePath  + '/' + item.routerlink" v-if=!isHome>{{ item.title }}</a>
                               <ul v-if="item.hasChildren" :class="{ 'open': item.open }" :style="{display: item.open ? 'block': 'none'}">
                                  <li v-for="(child, index) in item.children" 
                                     :key="index" class="sub-menu">
@@ -65,6 +65,7 @@
 </template>
 <script>
 import { data } from '@/assets/js/menu.js'; 
+import { info } from '@/assets/js/company.js'; 
 export default {
   props: ['isHome'],
   name: 'Header',
@@ -73,6 +74,7 @@ export default {
   },
  data() {
     return {
+      company: info,
       count:0,
       menuitems: data.items,
       fixedHeader: true,
