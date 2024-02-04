@@ -32,7 +32,7 @@
                            <a class="navbar-brand logodefault"  href="#" v-scroll-to="'#home'" title="Best-Log Kft" rel="home" v-if=isHome>
                            <img id="logo" src="../assets/logo.png" alt="logo"/>
                            </a>
-                           <a class="navbar-brand logodefault"  :href="`${$route.meta.basePath || ''}/`"  title="Best-Log Kft" rel="home" v-if=!isHome>
+                           <a class="navbar-brand logodefault"   :href="`${$route.meta.basePath || ''}/`"  title="Best-Log Kft" rel="home" v-if=!isHome>
                            <img id="logo" src="../assets/logo.png" alt="logo"/>
                            </a>
                         </div>

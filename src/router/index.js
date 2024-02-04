@@ -5,7 +5,7 @@ import TruckView from '../views/TruckView.vue'
 const routes = [
   {
     path: '/:pathMatch(.*)*',
-    name: 'home',
+    name: HomeView,
     meta: {
       title: "Home",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
@@ -14,31 +14,31 @@ const routes = [
   },
   {
     path: '/',
-    name: 'home',
-    component: HomeView,
+    name: HomeView,
     meta: {
       title: "Home",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
+    component: () => import("../views/HomeView.vue"),
   },
   {
     path: "/services/:id",
-    name: 'service',
+    name: ServiceView,
     meta: {
       title: "Service",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: ServiceView,
+    component: () => import("../views/ServiceView.vue"),
     props: true 
   },
   {
     path: "/trucks/:id",
-    name: 'truck',
+    name: TruckView,
     meta: {
-      title: "Truck",
+      title: "TruckView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: TruckView,
+    component: () => import("../views/TruckView.vue"),
     props: true 
   }
 ]
