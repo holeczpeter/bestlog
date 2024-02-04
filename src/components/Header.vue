@@ -45,12 +45,12 @@
                               <span v-if="item.hasChildren" 
                                  class="submenu-button">
                               </span>
-                              <a :href="route.meta.basePath  + '/'" v-scroll-to="item.routerlink" v-if=isHome>{{ item.title }}</a>
-                              <a :href="route.meta.basePath  + '/' + item.routerlink" v-if=!isHome>{{ item.title }}</a>
+                              <a :href="`${$route.meta.basePath || ''}/`" v-scroll-to="item.routerlink" v-if=isHome>{{ item.title }}</a>
+                              <a :href="`${$route.meta.basePath || ''}/` + item.routerlink" v-if=!isHome>{{ item.title }}</a>
                               <ul v-if="item.hasChildren" :class="{ 'open': item.open }" :style="{display: item.open ? 'block': 'none'}">
                                  <li v-for="(child, index) in item.children" 
                                     :key="index" class="sub-menu">
-                                    <a :href="'services/' + child.id">{{child.title}}</a> 
+                                    <a :href="`${$route.meta.basePath || ''}/` + 'services/' + child.id">{{child.title}}</a> 
                                  </li>
                               </ul>
                            </li>
