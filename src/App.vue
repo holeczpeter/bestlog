@@ -1,7 +1,9 @@
 <template>
-  <router-view/>
-  <Footer/>
-  <ScrollToTop/>
+  <div id="app" class="page">
+    <router-view/>
+    <Footer/>
+    <ScrollToTop/>
+  </div>
 </template>
 
 <script>
