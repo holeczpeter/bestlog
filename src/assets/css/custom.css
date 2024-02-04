@@ -1,0 +1,102 @@
+/* Should you need to overwrite any of our SCSS or LESS or SASS code need to add any custom code, We recommend that you add your code into this file, so whenever theme update is available and you update the theme, You will not lose your hard work :) */
+.ttm-horizontal_sep {
+    
+    margin-top:20px;
+    margin-bottom:20px;
+    border-top: 1px solid #ebebeb;
+    display: block;
+    position: relative;
+}
+.ttm-bgcolor-darkgrey .ttm-horizontal_sep{
+    border-top-color: rgba(255,255,255,0.08);
+}
+.ttm-bgcolor-white .ttm-horizontal_sep{
+    border-top-color: #f1f1f1;
+}
+.border, .border-top, .border-left, .border-bottom, .border-right {
+    border-color: #ebf0f4 !important;
+}
+.ttm-bgcolor-darkgrey .border,
+.ttm-bgcolor-darkgrey .border-top,
+.ttm-bgcolor-darkgrey .border-left,
+.ttm-bgcolor-darkgrey .border-bottom,
+.ttm-bgcolor-darkgrey .border-right,
+.ttm-bgcolor-skincolor .border,
+.ttm-bgcolor-skincolor .border-top,
+.ttm-bgcolor-skincolor .border-left,
+.ttm-bgcolor-skincolor .border-bottom,
+.ttm-bgcolor-skincolor .border-right{
+    border-color: rgba(255,255,255,0.06) !important;
+}
+
+.ttm-vertical_sep > [class*='col']:not(:last-child):before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    top: 0;
+    right: 15px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.row.no-gutters.ttm-vertical_sep > [class*='col']:not(:last-child):before{ right: 0; }
+.ttm-bgcolor-darkgrey .ttm-vertical_sep > [class*='col']:not(:last-child):before,
+.ttm-bgcolor-skincolor .ttm-vertical_sep > [class*='col']:not(:last-child):before {
+    background-color: rgba(255,255,255,.21);
+}
+.truck-button{
+    margin-top:2em;
+}
+.section-slider {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.slider-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    animation: scrolling 20s linear infinite;
+
+}
+
+@keyframes scrolling {
+
+    0% {
+        transform: translateX(80%);
+    }
+
+    100% {
+        transform: translateX(-20%);
+    }
+}
+
+.slider-items img {
+    width: 12%;
+    margin: 20px;
+
+}
+.avatar{
+    max-height: 100px;
+}
