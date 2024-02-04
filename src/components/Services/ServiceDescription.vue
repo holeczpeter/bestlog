@@ -18,7 +18,7 @@
                   </div>
                   <div class="bg-secondary widget-info wow fadeIn rounded-style" data-wow-delay="500ms">
                      <div class="position-relative z-index-9 overflow-hidden text-center py-4 py-md-5">
-                        <img src="img/icons/icon-11.png" class="mb-4" alt="...">
+                       
                         <h5 class="text-white mb-3">Kérdése van?</h5>
                         <ul class="text-center list-unstyled mb-4 p-0">
                            <li class="text-white mb-2"><i class="fa fa-phone-alt small text-white me-2"></i><a href="#!" class="text-white">{{company.phone}}</a></li>
