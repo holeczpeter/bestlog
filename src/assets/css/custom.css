@@ -100,3 +100,27 @@ h1 {
 .avatar{
     max-height: 100px;
 }
+
+.mologo {
+    bottom: 0px;
+    right: 0px;
+    width: 250px; 
+    z-index: 999;
+    position: fixed;
+    margin: 0px 0px -7px 0px;
+}
+@media screen and (max-width: 991px) {
+    .mologo  {
+        width: 225px; 
+    } 
+}
+  @media screen and (max-width: 767px) {
+    .mologo  {
+        width: 225px;  
+    }
+ }
+  @media screen and (max-width: 575px) {
+    .mologo  {
+        width: 150px; 
+    } 
+} 
