@@ -43,7 +43,7 @@ export const data = {
             },
             {
                 id:3,
-                title: 'Futómű', 
+                title: 'Futómű beállítás és gumiszerelés', 
                 routerlink: '#wheelalignment',
                 open:false,
                 hasChildren: false,
@@ -55,13 +55,6 @@ export const data = {
                 open:false,
                 hasChildren: false,
             },
-            {
-                id:5,
-                title: 'Gumiszerelés', 
-                routerlink: '#tyres',
-                open:false,
-                hasChildren: false,
-            }
             ]
         },
         { 

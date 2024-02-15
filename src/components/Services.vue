@@ -23,9 +23,6 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-12 text-center mt-5 wow fadeIn" data-wow-delay="1000ms">
-               <a href="services.html" class="butn dark">További szolgáltatásaink</a>
-            </div>
          </div>
       </div>
    </section>

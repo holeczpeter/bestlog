@@ -62,7 +62,9 @@
                      <img :src="picture.pic" alt="..." class="rounded-style">
                   </div>
                </div>
-               <div class="row wow fadeIn" data-wow-delay="500ms">
+               <div  v-if="currentService.isOffer == 'true'" 
+                     class="row wow fadeIn" 
+                     data-wow-delay="500ms">
                   <div class="col-lg-12">
                      <a :href="`${$route.meta.basePath || ''}/`" class="butn secondary mt-2-2"><span class="text-white">Árajánlat</span></a>
                   </div>
