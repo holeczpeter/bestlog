@@ -22,8 +22,6 @@
                <h3 class="text-white h5 mb-3">Quick links</h3>
                <ul class="footer-list list-unstyled">
                   <li v-for="(item, index) in menuitems" :key="index">
-                  
-                     <a  v-if=isHome :href="`${$route.meta.basePath || ''}/`" v-scroll-to="item.routerlink">{{item.title}}</a>
                      <a  v-if=!isHome :href="`${$route.meta.basePath || ''}/` + item.routerlink">{{item.title}}</a>
                   </li>
                </ul>
@@ -33,8 +31,7 @@
                <ul class="footer-list list-unstyled">
                   <li><a :href="`${$route.meta.basePath || ''}/` + 'impressum'">Impresszum</a></li>
                   <li><a :href="`${$route.meta.basePath || ''}/` + 'privacy'">Adatkezelési tájékoztató</a></li>
-                  <li v-if=isHome><a :href="`${$route.meta.basePath || ''}/`"  v-scroll-to="'#contact'">Kapcsolat</a> </li>
-                  <li v-if=!isHome><a :href="`${$route.meta.basePath || ''}/` + '#contact'">Kapcsolat</a> </li>
+                  <li><a :href="`${$route.meta.basePath || ''}/` + '#contact'">Kapcsolat</a> </li>
                </ul>
             </div>
          </div>
