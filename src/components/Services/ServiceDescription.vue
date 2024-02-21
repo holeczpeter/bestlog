@@ -66,7 +66,8 @@
                      class="row wow fadeIn" 
                      data-wow-delay="500ms">
                   <div class="col-lg-12">
-                     <a :href="`${$route.meta.basePath || ''}/`" class="butn secondary mt-2-2"><span class="text-white">Árajánlat</span></a>
+                     <a :href="`${$route.meta.basePath || ''}/` +'#contact'" 
+                        class="butn secondary mt-2-2"><span class="text-white">Árajánlat</span></a>
                   </div>
                </div>
             </div>
