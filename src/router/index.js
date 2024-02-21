@@ -44,7 +44,7 @@ const routes = [
     props: true 
   },
   {
-    path: "/impressum/",
+    path: "/impressum",
     name: ImpressumView,
     meta: {
       title: "ImpressumView",
@@ -54,7 +54,7 @@ const routes = [
     props: true 
   },
   {
-    path: "/privacy/",
+    path: "/privacy",
     name: PrivacyView,
     meta: {
       title: "PrivacyView",
@@ -67,7 +67,6 @@ const routes = [
 
 const router = createRouter({
   base: process.env.VUE_APP_PUBLIC_PATH,
-  history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior(to) {
     if (to.hash) {
