@@ -4,7 +4,7 @@
          <div class="row py-8">
             <div class="col-lg-4 col-xl-4 col-md-6 col-sm-6 wow fadeIn" data-wow-delay="200ms">
                <div class="footer-logo mb-1-9">
-                  <img src="../assets/logo.png" alt="logo">
+                  <img src="../assets/BestLog.png" alt="logo">
                </div>
                <ul class="list-unstyled mb-0">
                   <li class="mb-3 d-flex align-items-baseline">

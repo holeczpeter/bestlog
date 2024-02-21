@@ -30,10 +30,10 @@
                      <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <div class="navbar-header navbar-header-custom">
                            <a class="navbar-brand logodefault"  href="#" v-scroll-to="'#home'" title="Best-Log Kft" rel="home" v-if=isHome>
-                           <img id="logo" src="../assets/logo.png" alt="logo"/>
+                           <img id="logo" src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
                            </a>
                            <a class="navbar-brand logodefault"   :href="`${$route.meta.basePath || ''}/`"  title="Best-Log Kft" rel="home" v-if=!isHome>
-                           <img id="logo" src="../assets/logo.png" alt="logo"/>
+                           <img id="logo" src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
                            </a>
                         </div>
                         <div class="navbar-toggler bg-primary" :class="{ 'menu-opened': isOpen }" @click="toggleMobileMenu"></div>
