@@ -67,6 +67,7 @@ const routes = [
 
 const router = createRouter({
   base: process.env.VUE_APP_PUBLIC_PATH,
+  history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior(to) {
     if (to.hash) {
