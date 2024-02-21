@@ -1,21 +1,21 @@
 <template>
     <Header :isHome="false"/>
-    <TruckTitle/>
-    <TruckDescription/>
+    <PrivacyTitle/>
+    <PrivacyDescription/>
     <Footer :isHome="false"/>
 </template>
 <script>
 import Header from '../components/Header.vue'
-import TruckTitle from '../components/Trucks/TruckTitle.vue'
-import TruckDescription from '../components/Trucks/TruckDescription.vue'
+import PrivacyTitle from '../components/Privacy/PrivacyTitle.vue'
+import PrivacyDescription from '../components/Privacy/PrivacyDescription.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
-  name: 'App',
+  name: 'PrivacyView',
   components: {
     Header,
-    TruckTitle,
-    TruckDescription,
+    PrivacyTitle,
+    PrivacyDescription,
     Footer
   },
 }

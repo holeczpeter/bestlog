@@ -7,7 +7,7 @@
     <Partners id="partners"/>
     <Testimonials id="testimonials"/>
     <Contact id="contact"/>
-   
+    <Footer :isHome="true" />
 </template>
 
 <script>
@@ -19,6 +19,7 @@ import Services from '../components/Services.vue'
 import Contact from '../components/Contact.vue'
 import Testimonials from '../components/Testimonials.vue'
 import Partners from '../components/Partners.vue'
+import Footer from '../components/Footer.vue';
 export default {
   name: 'HomeView',
   components: {
@@ -29,7 +30,8 @@ export default {
     Services,
     Partners,
     Testimonials,
-    Contact
+    Contact,
+    Footer
   },
   
 }

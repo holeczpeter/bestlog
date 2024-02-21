@@ -77,7 +77,7 @@
                            </div>
                            <div class="flex-grow-1 ms-3">
                               <span class="d-block mb-1 text-white">{{company.phone}}</span>
-                              <span class="text-white">{{company.phone}}</span>
+                              
                            </div>
                         </div>
                      </li>
@@ -88,7 +88,7 @@
                            </div>
                            <div class="flex-grow-1 ms-3">
                               <span class="d-block mb-1 text-white">{{company.email}}</span>
-                              <span class="text-white">{{company.email}}</span>
+                             
                            </div>
                         </div>
                      </li>

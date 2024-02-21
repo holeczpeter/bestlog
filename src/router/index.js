@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ServiceView from '../views/ServiceView.vue'
 import TruckView from '../views/TruckView.vue'
+import ImpressumView from '../views/ImpressumView.vue'
+import PrivacyView from '../views/PrivacyView.vue'
 const routes = [
   {
     path: '/:pathMatch(.*)*',
@@ -40,13 +42,40 @@ const routes = [
     },
     component: () => import("../views/TruckView.vue"),
     props: true 
+  },
+  {
+    path: "/impressum/",
+    name: ImpressumView,
+    meta: {
+      title: "ImpressumView",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
+    },
+    component: () => import("../views/ImpressumView.vue"),
+    props: true 
+  },
+  {
+    path: "/privacy/",
+    name: PrivacyView,
+    meta: {
+      title: "PrivacyView",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
+    },
+    component: () => import("../views/PrivacyView.vue"),
+    props: true 
   }
 ]
 
 const router = createRouter({
   base: process.env.VUE_APP_PUBLIC_PATH,
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+      }
+    }
+  },
 })
 
 export default router

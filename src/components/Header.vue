@@ -1,5 +1,5 @@
 <template>
-   <header class="header-style2" :class="[fixedHeader ? 'fixedHeader' : 'scrollHeader']" >
+    <header  :class="[fixedHeader ? 'fixedHeader' : 'scrollHeader', isHome ? 'header-style2' : 'header-style1']" >
       <div class="top-bar bg-primary">
          <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
             <div class="row">
@@ -30,10 +30,12 @@
                      <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <div class="navbar-header navbar-header-custom">
                            <a class="navbar-brand logodefault"  href="#" v-scroll-to="'#home'" title="Best-Log Kft" rel="home" v-if=isHome>
-                           <img id="logo" src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
+                           <img id="logo"  src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
+                            
                            </a>
                            <a class="navbar-brand logodefault"   :href="`${$route.meta.basePath || ''}/`"  title="Best-Log Kft" rel="home" v-if=!isHome>
-                           <img id="logo" src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
+                           <img id="logo" v-if="!fixedHeader" src="../assets/BestLog_fekete_CMYK.jpg" alt="logo"/>
+                           <img v-if="fixedHeader" src="../assets/BestLog.png" alt="logo">
                            </a>
                         </div>
                         <div class="navbar-toggler bg-primary" :class="{ 'menu-opened': isOpen }" @click="toggleMobileMenu"></div>

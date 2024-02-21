@@ -22,17 +22,19 @@
                <h3 class="text-white h5 mb-3">Quick links</h3>
                <ul class="footer-list list-unstyled">
                   <li v-for="(item, index) in menuitems" :key="index">
-                     <a :href="`${$route.meta.basePath || ''}/`" v-scroll-to="item.routerlink">{{item.title}}</a>
+                  
+                     <a  v-if=isHome :href="`${$route.meta.basePath || ''}/`" v-scroll-to="item.routerlink">{{item.title}}</a>
+                     <a  v-if=!isHome :href="`${$route.meta.basePath || ''}/` + item.routerlink">{{item.title}}</a>
                   </li>
                </ul>
             </div>
             <div class="col-lg-2 col-xl-3 col-md-3 col-sm-6 mt-2-2 mt-md-0 wow fadeIn" data-wow-delay="500ms">
                <h3 class="text-white h5 mb-3">Support</h3>
                <ul class="footer-list list-unstyled">
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a :href="'/'" v-scroll-to="'#contact'">Kapcsolat
-                     </a>
-                  </li>
+                  <li><a :href="`${$route.meta.basePath || ''}/` + 'impressum'">Impresszum</a></li>
+                  <li><a :href="`${$route.meta.basePath || ''}/` + 'privacy'">Adatkezelési tájékoztató</a></li>
+                  <li v-if=isHome><a :href="`${$route.meta.basePath || ''}/`"  v-scroll-to="'#contact'">Kapcsolat</a> </li>
+                  <li v-if=!isHome><a :href="`${$route.meta.basePath || ''}/` + '#contact'">Kapcsolat</a> </li>
                </ul>
             </div>
          </div>

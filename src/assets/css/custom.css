@@ -100,7 +100,17 @@ h1 {
 .avatar{
     max-height: 100px;
 }
-
+.img_wrp {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px
+  }
+  .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color:#e9c46a;
+  }
 .mologo {
     bottom: 0px;
     right: 0px;
