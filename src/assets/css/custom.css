@@ -81,6 +81,12 @@ h1 {
 
 }
 
+.justify-p{
+    text-align: justify;
+
+}
+
+
 @keyframes scrolling {
 
     0% {

@@ -10,7 +10,7 @@
                   <div class="col-lg-11 col-xxl-10">
                      <div class="bg-primary position-relative overflow-hidden p-1-6 p-lg-1-9 rounded-style">
                         <div class="row mt-n4">
-                           <div class="col-sm-6 col-lg-3 mt-4" v-for="(property, key) in currentTruck.properties" :key="key" >
+                           <div class="col-sm-6 col-lg-3 mt-4" v-for="(property, key) in currentTruck.attributes" :key="key" >
                               <div>
                                  <h3 class="h5 text-white">{{property.name}}</h3>
                                  <p class="mb-0 text-white font-weight-600">{{property.value}}</p>
@@ -22,7 +22,7 @@
                </div>
                <div class="mb-2-6 wow fadeIn" data-wow-delay="300ms">
                   <h3 class="mb-1-6">{{currentTruck.title}}</h3>
-                  <p>
+                  <p class="justify-p">
                      {{currentTruck.paragraph}}
                   </p>
                </div>

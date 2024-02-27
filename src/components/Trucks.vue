@@ -12,9 +12,9 @@
                <div class="row mb-2-6 wow fadeIn" data-wow-delay="200ms" >
                   <div class="col-md-6">
                      <h4>{{truck.title}}</h4>
-                     <p>{{truck.desc}}</p>
+                     <p class="justify-p">{{truck.desc}}</p>
                      <ul class="list-style1 ps-0">
-                        <li v-for="(property, key) in truck.properties" :key="key" >{{property.desc}}</li>
+                        <li v-for="(property, key) in truck.properties" :key="key" >{{property.value}}</li>
                      </ul>
                   </div>
                   <div class="col-md-6 mt-1-6 mt-md-0">
@@ -40,9 +40,9 @@
                   </div>
                   <div class="col-md-6">
                      <h4>{{truck.title}}</h4>
-                     <p>{{truck.desc}}</p>
+                     <p class="justify-p">{{truck.desc}}</p>
                      <ul class="list-style1 ps-0">
-                        <li v-for="(property, key) in truck.properties" :key="key" >{{property.desc}}</li>
+                        <li v-for="(property, key) in truck.properties" :key="key" >{{property.value}}</li>
                      </ul>
                   </div>
                </div>

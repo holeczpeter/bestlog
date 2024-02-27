@@ -6,9 +6,9 @@
          </div>
         <div class="slider">
             <div class="slider-items">
-                <img src="https://www.zarla.com/images/nike-logo-2400x2400-20220504.png?crop=1:1,smart&width=150&dpr=2"
+                <img src="../assets/img/logos/wimmer.avif"
                     alt="">
-                <img src="https://www.zarla.com/images/apple-logo-2400x2400-20220512-1.png?crop=1:1,smart&width=150&dpr=2"
+                <img src="../assets/img/logos/fafem.png"
                     alt="">
                 <img src="https://www.zarla.com/images/disney-logo-2400x2400-20220513-2.png?crop=1:1,smart&width=150&dpr=2"
                     alt="">

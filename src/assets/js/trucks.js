@@ -6,71 +6,35 @@ export const data = {
            title: "NYERGES SZERELVÉNYEK",
            desc: "Modern és megbízható nyerges szerelvényeink a hatékony és biztonságos áruszállítás alapjait képezik, míg kis-tehergépjárműveink rugalmas megoldásokat kínálnak a kisebb szállítmányok számára. Gépparkunk minőségi szolgáltatásunk alapját teremti meg, hogy ügyfeleink számára optimális logisztikai megoldásokat nyújthassunk",
            button:"Ismerje meg nyerges szerelvényinket",
-           paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus ut magna vehicula pulvinar. Etiam a justo placerat, fermentum orci in, aliquet libero. Nulla varius lobortis nisi, vitae elementum elit dignissim eget. Suspendisse at lectus euismod, commodo felis eget, rhoncus felis. Praesent ornare dolor sit amet ante tincidunt, in tincidunt nibh lacinia. Sed a ligula nulla. Sed ligula est, pharetra in augue in, ultricies feugiat nulla. Curabitur justo ex, tincidunt in condimentum id, ultrices laoreet sem. Vestibulum consectetur facilisis tincidunt. Sed sed augue arcu. Mauris nec orci metus. Quisque imperdiet sem sit amet lorem laoreet congue. Praesent sapien purus, gravida vel viverra non, cursus commodo massa. Donec cursus, nibh vel blandit iaculis, nisl elit ornare lorem, ut pellentesque dui ante ut risus. Proin gravida, est eget eleifend molestie, justo sapien dignissim ipsum, id luctus sem tellus nec velit. Suspendisse dictum mi in odio congue, et lobortis lectus eleifend.",
-           properties:[
+           info:"25 db 40 tonnás normál / mega ponyvás kamion",
+           paragraph:"Nyerges szerelvényeink korszerű és környezetbarát EURO 6 környezetvédelmi besorolású vontatókkal rendelkeznek, amelyek biztosítják a környezetvédelmi szabványoknak való megfelelést. A járműparkunk részeként elérhető MEGA kivitelű nyerges szerelvények kiemelkedően magas, 3 méteres belmagasságú ponyvával rendelkeznek, lehetővé téve a hatékony és biztonságos rakodást. A daruzható pótkocsik és az XL Kódos ponyvás kialakítás tovább növeli a szállítási lehetőségeinket, míg a GPS nyomkövetés biztosítja a járműveink pontos követését és elérhetőségét minden pillanatban.",
+           attributes:[
             {
                 name:"Össztömeg",
-                value:"7,5 és 12 tonna",
-                desc:"7,5 és 12 tonna össztömegű tehergépkocsik"
-
-           },
-           {
-            name:"Terhelhetőség",
-            value:"2,8 - 5,8 to",
-            desc:"2,8 – 5,8 to terhelhetőség"
-
+                value:"40 tonna",
             },
             {
-                name:"Hossz",
-                value:"2 x 7,7 m",
-                desc:"Hossz:2 x 7,7 m"
-
+                name:"Besorolás",
+                value:"Euro 6",
             },
             {
-                name:"Szélesség",
-                value:"2 x 2,48 m",
-                desc:"Szélesség:2 x 2,48 m"
-
-            },
-            {
-                name:"Magasság",
-                value:"3 m + 3 m",
-                desc:"Magasság:3 m + 3 m"
-
-            },
-            {
-                name:"Rak súly",
-                value:"12 t + 12 t",
-                desc:"Magasság:3 m + 3 m"
-
-            },
-            {
-                name:"Raktérfogat",
-                value:"120 m3",
-                desc:"Raktérfogat:120 m3"
-
+                name:"GPS nyomkövetés",
+                value:"Igen",
             },
             {
                 name:"Mennyiség",
-                value:"3 db",
-                desc:"Mennyiség: 3db"
-
+                value:"25 db",
             }
            ],
-           trucks:[{
-             type:'Man',
-             year:'2019'
-           },
-           {
-            type:'Volvo',
-            year:'2020'
-          },
-          {
-            type:'Volvo',
-            year:'2020'
-          }
            
+           properties:[
+            { value:"MEGA, kiemelhető tetős, 3 m belmagasságú ponyvás, daruzható pótkocsik" },
+            { value:"XL Kódos ponyvás, daruzható pótkocsik" },
+            { value:"EURO 6 környezetvédelmi besorolású vontatók" },
+            { value:"GPS nyomkövetés" },
+            { value:"Mennyiség: 25db" }
            ],
+           icon:require("../../assets/img/icons/icon-02-primary.png"),
            main_pic: require("../../assets/img/trucks/1.jpg"),
            more_pics:[
             {
@@ -91,58 +55,38 @@ export const data = {
             title: "KIS-TEHERGÉPJÁRMŰVEK",
             desc: "Kis-tehergépjárműveink kiválóan alkalmasak a rugalmas és gyors áruszállításra, ideális megoldást nyújtva kisebb szállítmányok számára. Modern járműparkunk a hatékonyság és időbeni szállítás jegyében áll, hogy ügyfeleinknek optimális logisztikai megoldásokat biztosítsunk minden fuvarban",
             button:"Ismerje meg kis-tehergépjárműveinket",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus ut magna vehicula pulvinar. Etiam a justo placerat, fermentum orci in, aliquet libero. Nulla varius lobortis nisi, vitae elementum elit dignissim eget. Suspendisse at lectus euismod, commodo felis eget, rhoncus felis. Praesent ornare dolor sit amet ante tincidunt, in tincidunt nibh lacinia. Sed a ligula nulla. Sed ligula est, pharetra in augue in, ultricies feugiat nulla. Curabitur justo ex, tincidunt in condimentum id, ultrices laoreet sem. Vestibulum consectetur facilisis tincidunt. Sed sed augue arcu. Mauris nec orci metus. Quisque imperdiet sem sit amet lorem laoreet congue. Praesent sapien purus, gravida vel viverra non, cursus commodo massa. Donec cursus, nibh vel blandit iaculis, nisl elit ornare lorem, ut pellentesque dui ante ut risus. Proin gravida, est eget eleifend molestie, justo sapien dignissim ipsum, id luctus sem tellus nec velit. Suspendisse dictum mi in odio congue, et lobortis lectus eleifend.",
-         
-            properties:[
+            info:"8 db 12 tonnás ponyvás kamion",
+            paragraph:"Kis-tehergépjárműveink a 7,5 és 12 tonna össztömegű tehergépkocsik kategóriájába tartoznak, optimális méretükkel és teherbírásukkal kiválóan alkalmasak változatos szállítási igények kielégítésére. A 7,2-8,5 méteres platóhosszúságú, ponyvás és daruzható felépítmények rugalmas választási lehetőségeket nyújtanak a szállítandó áruk jellegéhez és méretéhez igazítva. Az 2,8 - 5,8 tonnás terhelhetőségük ideális a kisebb és közepes méretű szállítmányok hatékony fuvarozásához. A beépített GPS nyomkövetés további előnyt biztosít, lehetővé téve a járművek pontos követését és optimalizált logisztikai megoldásokat.",
+            attributes:[
                 {
                     name:"Össztömeg",
                     value:"7,5 és 12 tonna",
-                    desc:"7,5 és 12 tonna össztömegű tehergépkocsik"
-    
-               },
-               {
-                name:"Terhelhetőség",
-                value:"2,8 - 5,8 to",
-                desc:"2,8 – 5,8 to terhelhetőség"
-    
                 },
                 {
-                    name:"Hossz",
-                    value:"2 x 7,7 m",
-                    desc:"Hossz:2 x 7,7 m"
-    
+                    name:"Platóhosszúság",
+                    value:"7,2-8,5 m",
                 },
                 {
-                    name:"Szélesség",
-                    value:"2 x 2,48 m",
-                    desc:"Szélesség:2 x 2,48 m"
-    
+                    name:"Terhelhetőség",
+                    value:"2,8 - 5,8 to",
                 },
                 {
-                    name:"Magasság",
-                    value:"3 m + 3 m",
-                    desc:"Magasság:3 m + 3 m"
-    
-                },
-                {
-                    name:"Rak súly",
-                    value:"12 t + 12 t",
-                    desc:"Magasság:3 m + 3 m"
-    
-                },
-                {
-                    name:"Raktérfogat",
-                    value:"120 m3",
-                    desc:"Raktérfogat:120 m3"
-    
+                    name:"GPS Nyomkövetés",
+                    value:"Igen",
                 },
                 {
                     name:"Mennyiség",
-                    value:"3 db",
-                    desc:"Mennyiség: 3db"
-    
+                    value:"8 db",
                 }
                ],
+               properties:[
+                { value:"7,5 és 12 tonna össztömegű tehergépkocsik"},
+                { value:"2,8 - 5,8 to terhelhetőség" },
+                { value:"7,2-8,5 m platóhosszúságú, ponyvás, daruzható felépítmények"},
+                { value:"GPS Nyomkövetés" },
+                { value:"Mennyiség: 8db" }
+               ],
+            icon:require("../../assets/img/icons/icon-10.png"),
             main_pic: require("../../assets/img/trucks/5.jpg"),
             more_pics:[
                {
@@ -159,73 +103,34 @@ export const data = {
          { 
             id:3,
             title: "FURGONOK",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus ut magna vehicula pulvinar. Etiam a justo placerat, fermentum orci in, aliquet libero. Nulla varius lobortis nisi, vitae elementum elit dignissim eget. Suspendisse at lectus euismod, commodo felis eget, rhoncus felis. Praesent ornare dolor sit amet ante tincidunt, in tincidunt nibh lacinia. Sed a ligula nulla. Sed ligula est, pharetra in augue in, ultricies feugiat nulla. Curabitur justo ex, tincidunt in condimentum id, ultrices laoreet sem. Vestibulum consectetur facilisis tincidunt. Sed sed augue arcu. Mauris nec orci metus. Quisque imperdiet sem sit amet lorem laoreet congue. Praesent sapien purus, gravida vel viverra non, cursus commodo massa. Donec cursus, nibh vel blandit iaculis, nisl elit ornare lorem, ut pellentesque dui ante ut risus. Proin gravida, est eget eleifend molestie, justo sapien dignissim ipsum, id luctus sem tellus nec velit. Suspendisse dictum mi in odio congue, et lobortis lectus eleifend.",
+            info:"6 db 3,5 tonnás ponyvás/ dobozos furgon",
+            desc: "Járműveink között találhatók kiváló minőségű, 3,5 tonnás ponyvás és dobozos furgonjaink, melyek ideálisak sürgős szállításokhoz. A járműveink a legmodernebb GPS nyomonkövető rendszerrel vannak felszerelve, biztosítva ezzel a hatékony és pontos logisztikai megoldásokat ügyfeleinknek.",
             button:"Ismerje meg furgonjainkat",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus ut magna vehicula pulvinar. Etiam a justo placerat, fermentum orci in, aliquet libero. Nulla varius lobortis nisi, vitae elementum elit dignissim eget. Suspendisse at lectus euismod, commodo felis eget, rhoncus felis. Praesent ornare dolor sit amet ante tincidunt, in tincidunt nibh lacinia. Sed a ligula nulla. Sed ligula est, pharetra in augue in, ultricies feugiat nulla. Curabitur justo ex, tincidunt in condimentum id, ultrices laoreet sem. Vestibulum consectetur facilisis tincidunt. Sed sed augue arcu. Mauris nec orci metus. Quisque imperdiet sem sit amet lorem laoreet congue. Praesent sapien purus, gravida vel viverra non, cursus commodo massa. Donec cursus, nibh vel blandit iaculis, nisl elit ornare lorem, ut pellentesque dui ante ut risus. Proin gravida, est eget eleifend molestie, justo sapien dignissim ipsum, id luctus sem tellus nec velit. Suspendisse dictum mi in odio congue, et lobortis lectus eleifend.",
+            paragraph:"Furgonjaink a könnyű szállítás kiváló megoldását nyújtják, ideálisak a gyors és rugalmas kiszállításokhoz. A 3,5 tonnás ponyvás és dobozos furgonok rendkívül alkalmazkodóképesek, és ideálisak sürgős szállításokhoz. Kiemelkedően praktikusak a vállalatok számára, akik gyorsan és hatékonyan kívánják kiszolgálni ügyfeleiket. A beépített GPS nyomkövetés biztosítja a járművek valós idejű követését, lehetővé téve a pontos és időben történő szállításokat.",
+            attributes:[
+                {
+                    name:"Össztömeg",
+                    value:"3,5 to",
+                },
+                {
+                    name:"Besorolás",
+                    value:"Euro 6",
+                },
+                {
+                    name:"GPS nyomkövetés",
+                    value:"Igen",
+                },
+                {
+                    name:"Mennyiség",
+                    value:"6 db",
+                }
+               ],
             properties:[
-             {
-                 name:"Össztömeg",
-                 value:"7,5 és 12 tonna",
-                 desc:"7,5 és 12 tonna össztömegű tehergépkocsik"
- 
-            },
-            {
-             name:"Terhelhetőség",
-             value:"2,8 - 5,8 to",
-             desc:"2,8 – 5,8 to terhelhetőség"
- 
-             },
-             {
-                 name:"Hossz",
-                 value:"2 x 7,7 m",
-                 desc:"Hossz:2 x 7,7 m"
- 
-             },
-             {
-                 name:"Szélesség",
-                 value:"2 x 2,48 m",
-                 desc:"Szélesség:2 x 2,48 m"
- 
-             },
-             {
-                 name:"Magasság",
-                 value:"3 m + 3 m",
-                 desc:"Magasság:3 m + 3 m"
- 
-             },
-             {
-                 name:"Rak súly",
-                 value:"12 t + 12 t",
-                 desc:"Magasság:3 m + 3 m"
- 
-             },
-             {
-                 name:"Raktérfogat",
-                 value:"120 m3",
-                 desc:"Raktérfogat:120 m3"
- 
-             },
-             {
-                 name:"Mennyiség",
-                 value:"3 db",
-                 desc:"Mennyiség: 3db"
- 
-             }
+                { value:"3,5 tonnás ponyvás/ dobozos furgon" },
+                { value:"GPS Nyomkövetés" },
+                { value:"Mennyiség: 6db" }
             ],
-            trucks:[{
-              type:'Man',
-              year:'2019'
-            },
-            {
-             type:'Volvo',
-             year:'2020'
-           },
-           {
-             type:'Volvo',
-             year:'2020'
-           }
-            
-            ],
+            icon:require("../../assets/img/icons/van.png"),
             main_pic: require("../../assets/img/trucks/9.jpg"),
             more_pics:[
              {

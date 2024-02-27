@@ -15,7 +15,7 @@
                   </div>
                   <div class="card-body pb-2-0 pt-7 px-1-6 px-sm-2-6">
                      <h3 class="mb-4 h4"><a href="#!">{{service.title}}</a></h3>
-                     <p>{{service.desc}}</p>
+                     <p class="justify-p">{{service.desc}}</p>
                      <a :href="'services/' + service.id" class="font-weight-600 text-secondary text-primary-hover">Részletek
                      <i class="fas fa-arrow-right small align-middle ms-2">
                      </i>

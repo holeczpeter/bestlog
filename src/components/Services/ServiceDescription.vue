@@ -49,11 +49,14 @@
                <div class="row wow fadeIn" data-wow-delay="300ms">
                   <div class="col-lg-12">
                      <h3 class="mb-1-6">{{currentService.title}}</h3>
-                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis ducimus rerum sunt dignissimos libero et eum modi! Consequuntur rem incidunt et ducimus magnam sunt rerum hic beatae sed obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium asperiores eos obcaecati nostrum sed, corporis placeat quasi pariatur id, est iure, minus quibusdam! Facilis laudantium vero.
+                     <p class="justify-p">
+                        {{currentService.paragraph}}
                      </p>
-                     <p class="mb-2-6">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock a Latin professor at Hampden-Sydney.
+                     <p class="mb-2-6 justify-p">
+                        {{currentService.paragraph2}}
+                     </p>
+                      <p class="mb-2-6 justify-p">
+                        {{currentService.paragraph3}}
                      </p>
                   </div>
                </div>

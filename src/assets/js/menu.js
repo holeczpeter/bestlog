@@ -15,7 +15,7 @@ export const data = {
         },
         { 
             id:3,
-            title: 'Gépparkunk', 
+            title: 'Járműparkunk', 
             routerlink: '#trucks',
             open:false,
             hasChildren: false

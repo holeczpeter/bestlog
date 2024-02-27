@@ -5,19 +5,24 @@
             <div class="col-lg-6 text-column mb-2-9 mb-lg-0 wow fadeIn" data-wow-delay="200ms">
                <div class="pe-xl-2-9">
                   <h2 class="h1 mb-4">Üdvözöljük a <span class="text-secondary"> {{company.name}}</span> weboldalán!  </h2>
-                  <p class="pb-3">Szakértelmünk és elkötelezettségünk révén azon dolgozunk, hogy szállítmányozási igényeit magas szintű hatékonysággal és megbízhatósággal elérhessük..</p>
+                  <p class="pb-3 justify-p">1996-ban gyorsfutár szolgálatként indult vállalkozásunk mára bővült belföldi és nemzetközi szállítmányozással, valamint közúti teherfuvarozással. Telephelyünk Kecskemét központjától mindössze 15 km-re található, megkönnyítve az azonnali igények kielégítését a megbízóink részére. Fuvarfeladatokat 24 tonnás nyerges szerelvényekkel, 7,5-12 tonnás teherautókkal és sürgős szállításokra alkalmas furgonokkal teljesítjük saját gépjárműparkunk segítségével. Nyerges szerelvényeink normál és mega rolótetős, függönyponyvás, daruzható, félpótkocsikból állnak.
+</p>
                   <div class="clearfix d-sm-flex align-items-center mb-2-6">
                      <ul class="list-style2 mb-5 mb-sm-0">
                         <li>Gyorsított szállítás</li>
                         <li>Megbízhatóság</li>
                         <li>Rugalmas logisztika</li>
+                        <li>CMR biztosítás</li>
+                        <li>Nemzetközi fuvarozói szervezet tagság</li>
+                        <li>Kiváló szakmai csapat</li>
+                        <li>GPS nyomonkövetés</li>
                      </ul>
                      <div class="since">
                         <span class="txt text-center text-white bg-dark">1990 <br>óta</span>
                      </div>
                   </div>
                   <div>
-                     <a class="butn" href="about.html">Tudjon meg többet</a>
+                     <a class="butn" :href="`${$route.meta.basePath || ''}/` + 'about'">Ismerjen meg minket</a>
                   </div>
                </div>
             </div>

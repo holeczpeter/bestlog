@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import AboutView from '../views/AboutView.vue'
 import ServiceView from '../views/ServiceView.vue'
 import TruckView from '../views/TruckView.vue'
 import ImpressumView from '../views/ImpressumView.vue'
@@ -22,6 +23,16 @@ const routes = [
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
     component: () => import("../views/HomeView.vue"),
+  },
+  {
+    path: "/about",
+    name: AboutView,
+    meta: {
+      title: "AboutView",
+      basePath: process.env.VUE_APP_PUBLIC_PATH || ''
+    },
+    component: () => import("../views/AboutView.vue"),
+    props: true 
   },
   {
     path: "/services/:id",
