@@ -28,6 +28,19 @@ export const data = {
             id:2,
             title: "Önkiszolgáló autómosó",
             desc: "Autóját a saját tempójában tisztíthatja és csillogóvá varázsolhatja az egyszerű és hatékony önkiszolgáló autómosónkban – élvezze a tisztaság szabadságát! Válassza önkiszogáló autómosónkat",
+            list:[
+               "XXL bab",
+               "Meleg vizes, samponos előmosás",
+               "Habkefés tisztítás",
+               "Forró viaszolás",
+               "Fényesítő öblítés"
+            ],
+            paragraph:"Az önkiszolgáló mosáskor 5 lehetőségből lehet választani, akár többet is egymás után",
+            paragraph2:"A kívánt összeg bedobásával vehető igénybe a nagy nyomású mosóeszköz. A hablándzsával a járműre száradt szennyeződés profi módon beáztatható és leoldható. Nagy teljesítményű porszívónkkal az autó belső takarítására is van lehetőség. A kívánt program kiválasztása és a mosópisztoly kézbevétele után érme bedobásával indítható a mosási folyamat. Az ügyfél saját maga végzi a tisztítást, az általa kíván időtartamig. ",
+            paragraph3:"A keletkező szennyvíz ártalmatlanítása a mi feladatunk.",
+            paragraph4:"Gondoskodunk róla, hogy a mosás környezetbarát legyen!",
+            address:"6065, Lakitelek Széchenyi körút 160",
+            addressInfo:"Az autóscsárdával szemben, a Czakó bolt mellett!",
             home_pic: require("../../assets/img/services/car-wash/1.jpg"),
             icon:require("../../assets/img/icons/car-wash/car-wash.png"), 
             more_pics:[

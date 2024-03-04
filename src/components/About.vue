@@ -18,7 +18,7 @@
                         <li>GPS nyomonkövetés</li>
                      </ul>
                      <div class="since">
-                        <span class="txt text-center text-white bg-dark">1990 <br>óta</span>
+                        <span class="txt text-center text-white bg-dark">1996 <br>óta</span>
                      </div>
                   </div>
                   <div>

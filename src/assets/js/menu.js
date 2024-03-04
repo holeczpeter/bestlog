@@ -64,13 +64,7 @@ export const data = {
             open:false,
             hasChildren: false
         },
-        { 
-            id:6,
-            title: 'Rólunk mondták', 
-            routerlink: '#testimonials',
-            open:false,
-            hasChildren: false
-        },
+        
         { 
             id:7,
             title: 'Kapcsolat', 

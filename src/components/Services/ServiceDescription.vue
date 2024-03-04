@@ -49,6 +49,12 @@
                <div class="row wow fadeIn" data-wow-delay="300ms">
                   <div class="col-lg-12">
                      <h3 class="mb-1-6">{{currentService.title}}</h3>
+                     <div class="mb-2-6">
+                      <ul class="list-style2">
+                        <li v-for="(listitem, key) in currentService.list" :key="key" >{{listitem}}</li>
+                     </ul>
+                     </div>
+                    
                      <p class="justify-p">
                         {{currentService.paragraph}}
                      </p>
@@ -58,8 +64,19 @@
                       <p class="mb-2-6 justify-p">
                         {{currentService.paragraph3}}
                      </p>
+                     <p class="mb-2-6 justify-p">
+                        {{currentService.paragraph4}}
+                     </p>
                   </div>
                </div>
+               <ul class="list-unstyled mb-0" v-if="currentService.address">
+                  <li class="d-flex align-items-baseline">
+                     <i class="fas fa-map-marker-alt text-primary display-25 me-4"></i>{{currentService.address}}
+                  </li>
+               </ul>
+               <p class="mb-2-6 justify-p">
+                  {{currentService.addressInfo}}
+               </p>
                <div class="row mt-n1-9 g-3 mb-2-2 wow fadeIn" data-wow-delay="400ms">
                   <div class="col-md-4 mt-1-9 image-hover" v-for="(picture, key) in currentService.more_pics" :key="key" >
                      <img :src="picture.pic" alt="..." class="rounded-style">
