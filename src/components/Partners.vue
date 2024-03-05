@@ -5,8 +5,10 @@
          </div>
         <div class="slider">
             <div class="slider-items">
-                <img src="../assets/img/logos/wimmer.avif" alt="">
-                <img src="../assets/img/logos/fafem.png" alt="">
+                <img src="../assets/img/logos/wimmer.avif" alt="Wimmer partner">
+                <img src="../assets/img/logos/fafem.png" alt="Fafém Bútor partner">
+                <img src="../assets/img/logos/kalics_sped.jpg" alt="Kalics sped partner">
+                <img src="../assets/img/logos/vivienphoto.png" alt="VivienPhoto partner">
             </div>
         </div>
     </section>

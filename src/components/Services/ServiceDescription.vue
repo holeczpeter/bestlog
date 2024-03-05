@@ -44,7 +44,7 @@
             </div>
             <div class="col-lg-8 order-1 order-lg-2 mb-2-9 mb-lg-0">
                <div class="image-hover mb-2-6 wow fadeIn" data-wow-delay="200ms">
-                  <img :src="currentService.home_pic" alt="..." class="rounded-style">
+                  <img :src="currentService.home_pic" alt="Szolgáltatás háttér" class="rounded-style">
                </div>
                <div class="row wow fadeIn" data-wow-delay="300ms">
                   <div class="col-lg-12">
@@ -79,7 +79,7 @@
                </p>
                <div class="row mt-n1-9 g-3 mb-2-2 wow fadeIn" data-wow-delay="400ms">
                   <div class="col-md-4 mt-1-9 image-hover" v-for="(picture, key) in currentService.more_pics" :key="key" >
-                     <img :src="picture.pic" alt="..." class="rounded-style">
+                     <img :src="picture.pic" alt="Szolgáltatás kép" class="rounded-style">
                   </div>
                </div>
                <div  v-if="currentService.isOffer == 'true'" 

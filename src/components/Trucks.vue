@@ -19,7 +19,7 @@
                   </div>
                   <div class="col-md-6 mt-1-6 mt-md-0">
                      <div class="ps-md-1-6 image-hover">
-                        <img :src="truck.main_pic" alt="..." class="rounded-style">
+                        <img :src="truck.main_pic" alt="Gáppark kép" class="rounded-style">
                      </div>
                      <div class="ps-md-1-6 truck-button">
                         <a class="butn" :href="'trucks/' + truck.id">{{truck.button}}</a>
@@ -32,7 +32,7 @@
                <div class="row mb-2-6 wow fadeIn" data-wow-delay="200ms">
                   <div class="col-md-6 mt-1-6 mt-md-0">
                      <div class="ps-md-1-6 image-hover">
-                        <img :src="truck.main_pic" alt="..." class="rounded-style">
+                        <img :src="truck.main_pic" alt="Géppark kép" class="rounded-style">
                      </div>
                      <div class="ps-md-1-6 truck-button">
                         <a class="butn" :href="'trucks/' + truck.id">{{truck.button}}</a>

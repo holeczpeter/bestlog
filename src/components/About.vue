@@ -29,10 +29,10 @@
             <div class="col-lg-6 position-relative wow fadeIn" data-wow-delay="400ms">
                <div class="row align-items-center ps-lg-1-9 position-relative z-index-9">
                   <div class="col-sm-7 d-none d-sm-block">
-                     <img src="../assets/img/about/1.jpeg" class="rounded" alt="...">
+                     <img src="../assets/img/about/1.jpeg" class="rounded" alt="Rólunk">
                   </div>
                   <div class="col-sm-5 text-center text-sm-start">
-                     <img src="../assets/img/about/2.jpg" class="rounded" alt="...">
+                     <img src="../assets/img/about/2.jpg" class="rounded" alt="Rólunk">
                      <div class="text-center mt-4">
                         <a :href="'/'" v-scroll-to="'#services'" class="font-weight-600">Tekintse meg szolgáltatásainkat<i class="ti-arrow-right ms-2 align-middle display-30"></i></a>
                      </div>

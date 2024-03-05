@@ -10,8 +10,8 @@
                v-for="(service, key) in services" :key="key" >
                <div class="card border-radius-10 card-style5">
                   <div class="card-img">
-                     <img :src="service.home_pic" alt="...">
-                     <span class="icon"><img :src="service.icon" alt="..."></span>
+                     <img :src="service.home_pic" alt="Szolgáltatásaink">
+                     <span class="icon"><img :src="service.icon" alt="Szolgáltatás ikon"></span>
                   </div>
                   <div class="card-body pb-2-0 pt-7 px-1-6 px-sm-2-6">
                      <h3 class="mb-4 h4"><a href="#!">{{service.title}}</a></h3>

@@ -4,7 +4,7 @@
          <div class="row justify-content-center">
             <div class="col-lg-11">
                <div class="mb-1-9 mb-lg-0 wow fadeIn image-hover" data-wow-delay="100ms">
-                  <img src="../../assets/img/banner/banner-04.jpg" alt="..." class="rounded-style">
+                  <img src="../../assets/img/banner/banner-04.jpg" alt="Banner" class="rounded-style">
                </div>
                <div class="mb-2-6 wow fadeIn" data-wow-delay="300ms">
                   <h3 class="mb-1-6">Bemutatkozás</h3>
@@ -80,7 +80,7 @@
                         <div class="col-sm-6 col-xl-4 mt-1-9 wow fadeInUp" data-wow-delay="200ms" v-for="(truck, key) in trucks" :key="key"  >
                            <div class="card card-style1">
                             <div class="card-body">
-                                <span class="mb-4 d-block"><img :src="truck.icon" alt="..."></span>
+                                <span class="mb-4 d-block"><img :src="truck.icon" alt="Géppark ikon"></span>
                                 <h3 class="h5 mb-3 mt-2"><a :href="'trucks/' + truck.id">{{truck.title}}</a></h3>
                                 <div class="card-info">
                                     <p class="mb-0">{{truck.info}}</p>
@@ -88,8 +88,6 @@
                             </div>
                             </div>
                          </div>
-                    
-                  
                         </div>
                      </div>
                 </section>

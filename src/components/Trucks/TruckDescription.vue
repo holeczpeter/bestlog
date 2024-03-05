@@ -4,7 +4,7 @@
          <div class="row justify-content-center">
             <div class="col-lg-11">
                <div class="mb-1-9 mb-lg-0 wow fadeIn image-hover" data-wow-delay="100ms">
-                  <img :src="currentTruck.main_pic" alt="..." class="rounded-style">
+                  <img :src="currentTruck.main_pic" alt="Gépjárű kép" class="rounded-style">
                </div>
                <div class="row justify-content-center position-relative mt-n2-9 mb-2-6 wow fadeIn" data-wow-delay="200ms">
                   <div class="col-lg-11 col-xxl-10">
@@ -28,7 +28,7 @@
                </div>
                <div class="row mb-2-6 wow fadeIn" data-wow-delay="500ms" >
                   <div class="col-6 col-sm-4 image-hover" v-for="(picture, key) in currentTruck.more_pics" :key="key">
-                     <img :src="picture.pic" alt="..." class="rounded-style">
+                     <img :src="picture.pic" alt="Gépjármű kép" class="rounded-style">
                   </div>
                </div>
             </div>
