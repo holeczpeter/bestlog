@@ -30,7 +30,7 @@
                <h3 class="text-white h5 mb-3">Support</h3>
                <ul class="footer-list list-unstyled">
                   <li><a :href="`${$route.meta.basePath || ''}/` + 'impressum'">Impresszum</a></li>
-                  <li><a :href="`${$route.meta.basePath || ''}/` + 'privacy'">Adatkezelési tájékoztató</a></li>
+                  <li><a href="docs/BestLog_Privacy.pdf" download>Adatkezelési tájékoztató</a></li>
                   <li><a :href="`${$route.meta.basePath || ''}/` + '#contact'">Kapcsolat</a> </li>
                </ul>
             </div>
