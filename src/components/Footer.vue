@@ -14,7 +14,7 @@
                      <a href="#!" class="text-white text-primary-hover"><i class="fas fa-mobile-alt text-primary display-25 me-4"></i>{{company.phone}}</a>
                   </li>
                   <li class="text-white d-flex align-items-baseline">
-                     <i class="fas fa-map-marker-alt text-primary display-25 me-4"></i>{{company.address}}
+                     <i class="fas fa-map-marker-alt text-primary display-25 me-4"></i>{{company.address2}}
                   </li>
                </ul>
             </div>
@@ -49,10 +49,7 @@
                         <a href="#!"><i class="fab fa-facebook-f"></i></a>
                      </li>
                      <li>
-                        <a href="#!"><i class="fab fa-twitter"></i></a>
-                     </li>
-                     <li>
-                        <a href="#!"><i class="fab fa-youtube"></i></a>
+                        <a href="#!"><i class="fab fa-instagram"></i></a>
                      </li>
                      <li>
                         <a href="#!"><i class="fab fa-linkedin-in"></i></a>
