@@ -1,16 +1,12 @@
 <template>
-    <div class="mologo" :style="{display: visible ? 'block': 'none'}">
+    <div class="ginoplogo" :style="{display: visible ? 'block': 'none'}">
     <div class="img_wrp">
-        <a 
-             href="https://domain.hu/europai-unios-tamogatasbol-megvalosulo-fejlesztesek/" 
-           target="_blank">
-            <img src="../assets/img/szechenyi-2020-logo-bottom.png" alt="Európai Uniós támogatásból megvalósuló fejlesztések">
-            
+        <a :href="`${$route.meta.basePath || ''}/` + 'competention'">
+            <img src="../assets/img/MFF kedvezményezetti infóblokk keretes-1.jpg" alt="Európai Uniós támogatásból megvalósuló fejlesztések">
         </a>
         <a class="close" @click="visibility">
             <i class="fa-regular fa-rectangle-xmark"></i>
         </a>
-       
     </div>
     </div>
 </template>

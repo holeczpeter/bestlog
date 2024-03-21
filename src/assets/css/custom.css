@@ -140,6 +140,29 @@ h1 {
         width: 150px; 
     } 
 } 
+.ginoplogo {
+    bottom: 5px;
+    right: 0px;
+    width: 300px; 
+    z-index: 999;
+    position: fixed;
+    margin: 0px 0px -7px 0px;
+}
+@media screen and (max-width: 991px) {
+    .ginoplogo  {
+        width: 300px; 
+    } 
+}
+  @media screen and (max-width: 767px) {
+    .ginoplogo  {
+        width: 300px;  
+    }
+ }
+  @media screen and (max-width: 575px) {
+    .ginoplogo  {
+        width: 3000px; 
+    } 
+} 
 .masonry-container {
     column-count: 2; /* A blokkok számát itt állíthatod be */
     column-gap: 15px; /* Oszlopok közötti tér */

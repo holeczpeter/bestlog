@@ -3,12 +3,12 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <h1 class="text-animation" data-in-effect="fadeInUp">Adatkezelés tájékoztató</h1>
+               <h1 class="text-animation" data-in-effect="fadeInUp">Pályázatok</h1>
             </div>
             <div class="col-md-12">
                <ul class="wow fadeInUp" data-wow-delay="400ms">
                   <li><a :href="`${$route.meta.basePath || ''}/`">Főoldal</a></li>
-                  <li><a href="#!">Adatkezelés tájékoztató</a></li>
+                  <li><a href="#!">Pályázatok</a></li>
                </ul>
             </div>
          </div>

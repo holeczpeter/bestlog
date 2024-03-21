@@ -4,7 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import ServiceView from '../views/ServiceView.vue'
 import TruckView from '../views/TruckView.vue'
 import ImpressumView from '../views/ImpressumView.vue'
-import PrivacyView from '../views/PrivacyView.vue'
+import CompetentionView from '../views/CompetentionView.vue'
 const routes = [
   {
     path: '/:pathMatch(.*)*',
@@ -65,13 +65,13 @@ const routes = [
     props: true 
   },
   {
-    path: "/privacy",
-    name: PrivacyView,
+    path: "/competention",
+    name: CompetentionView,
     meta: {
-      title: "PrivacyView",
+      title: "CompetentionView",
       basePath: process.env.VUE_APP_PUBLIC_PATH || ''
     },
-    component: () => import("../views/PrivacyView.vue"),
+    component: () => import("../views/CompetentionView.vue"),
     props: true 
   }
 ]
