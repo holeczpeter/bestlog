@@ -35,12 +35,12 @@ export const data = {
                "Forró viaszolás",
                "Fényesítő öblítés"
             ],
-            paragraph:"Az önkiszolgáló mosáskor 5 lehetőségből lehet választani, akár többet is egymás után",
-            paragraph2:"A kívánt összeg bedobásával vehető igénybe a nagy nyomású mosóeszköz. A hablándzsával a járműre száradt szennyeződés profi módon beáztatható és leoldható. Nagy teljesítményű porszívónkkal az autó belső takarítására is van lehetőség. A kívánt program kiválasztása és a mosópisztoly kézbevétele után érme bedobásával indítható a mosási folyamat. Az ügyfél saját maga végzi a tisztítást, az általa kíván időtartamig. ",
-            paragraph3:"A keletkező szennyvíz ártalmatlanítása a mi feladatunk.",
-            paragraph4:"Gondoskodunk róla, hogy a mosás környezetbarát legyen!",
+            paragraph:"Az önkiszolgáló autómosónkban lehetőség van bankkártyával is fizetni",
+            paragraph2:"Az önkiszolgáló mosáskor 5 lehetőségből lehet választani, akár többet is egymás után",
+            paragraph3:"A kívánt összeg bedobásával vehető igénybe a nagy nyomású mosóeszköz. A hablándzsával a járműre száradt szennyeződés profi módon beáztatható és leoldható. Nagy teljesítményű porszívónkkal az autó belső takarítására is van lehetőség. A kívánt program kiválasztása és a mosópisztoly kézbevétele után érme bedobásával indítható a mosási folyamat. Az ügyfél saját maga végzi a tisztítást, az általa kíván időtartamig. ",
+            paragraph4:"A keletkező szennyvíz ártalmatlanítása a mi feladatunk.",
+            paragraph5:"Gondoskodunk róla, hogy a mosás környezetbarát legyen!",
             address:"6065, Lakitelek Széchenyi körút 160",
-            addressInfo:"Az autóscsárdával szemben, a Czakó bolt mellett!",
             home_pic: require("../../assets/img/services/car-wash/1.jpg"),
             icon:require("../../assets/img/icons/car-wash/car-wash.png"), 
             more_pics:[
@@ -59,7 +59,11 @@ export const data = {
          { 
             id:3,
             title: "Futómű beállítás és gumiszerelés",
-            desc: "Optimalizálja járműve teljesítményét a precíz futómű beállítással! Vezessen simán és biztonságosan - válassza szolgáltatásainkat a tökéletes úttartásért!",
+            desc: "Vállaljuk személyautók és kishaszongépjárművek futómű javítását és beállítását. Amennyiben gumi- vagy kerékcseréről, centrírozásról, felnicseréről vagy -javításról van szó, mindenben számíthathat ránk!",
+            paragraph:"Defekt, gumiabroncs sérülés vagy szezonális abroncs csere? Modern felszerelésekkel rendelkező gumiszervizünkben tapasztalt szakembereink várják, hogy segítsenek megoldani az ön problémáját. Gyorsan és precízen dolgozunk, legyen szó személyautóról, kistehergépjárműről, terepjáróról vagy SUV-ról.",
+            paragraph2:"A mai modern autómodellek futóműmérése és -beállítása során elengedhetetlenek a legújabb technológiájú műszerek. Ha autóját vagy kishaszongépjárművét futóműbeállításra vagy javításra szeretné hozni, a legjobb helyen jár nálunk!",
+            paragraph3:"Futóműbeállítás szolgáltatásunkkal biztosíthatja járműve optimális vezethetőségét és stabilitását. Tapasztalt szakembereink precízen állítják be a futóművet, hogy javítsák a kormányzást, csökkentsék a gumik kopását és növeljék az üzemanyag-hatékonyságot",
+            address:"6065, Lakitelek Széchenyi körút 160",
             home_pic: require("../../assets/img/services/wheel/1.jpg"),
             icon:require("../../assets/img/icons/wheel/wheel-alignment.png"),
             isOffer: "false"

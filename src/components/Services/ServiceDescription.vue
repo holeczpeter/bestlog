@@ -29,10 +29,7 @@
                               <a href="#!"><i class="fab fa-facebook-f"></i></a>
                            </li>
                            <li>
-                              <a href="#!"><i class="fab fa-twitter"></i></a>
-                           </li>
-                           <li>
-                              <a href="#!"><i class="fab fa-youtube"></i></a>
+                              <a href="#!"><i class="fab fa-instagram"></i></a>
                            </li>
                            <li>
                               <a href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -54,7 +51,6 @@
                         <li v-for="(listitem, key) in currentService.list" :key="key" >{{listitem}}</li>
                      </ul>
                      </div>
-                    
                      <p class="justify-p">
                         {{currentService.paragraph}}
                      </p>

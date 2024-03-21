@@ -7,7 +7,7 @@ export const data = {
            desc: "Modern és megbízható nyerges szerelvényeink a hatékony és biztonságos áruszállítás alapjait képezik, míg kis-tehergépjárműveink rugalmas megoldásokat kínálnak a kisebb szállítmányok számára. Gépparkunk minőségi szolgáltatásunk alapját teremti meg, hogy ügyfeleink számára optimális logisztikai megoldásokat nyújthassunk",
            button:"Ismerje meg nyerges szerelvényinket",
            info:"25 db 40 tonnás normál / mega ponyvás kamion",
-           paragraph:"Nyerges szerelvényeink korszerű és környezetbarát EURO 6 környezetvédelmi besorolású vontatókkal rendelkeznek, amelyek biztosítják a környezetvédelmi szabványoknak való megfelelést. A járműparkunk részeként elérhető MEGA kivitelű nyerges szerelvények kiemelkedően magas, 3 méteres belmagasságú ponyvával rendelkeznek, lehetővé téve a hatékony és biztonságos rakodást. A daruzható pótkocsik és az XL Kódos ponyvás kialakítás tovább növeli a szállítási lehetőségeinket, míg a GPS nyomkövetés biztosítja a járműveink pontos követését és elérhetőségét minden pillanatban.",
+           paragraph:"Nyerges szerelvényeink korszerű és környezetbarát EURO 6 környezetvédelmi besorolású vontatókkal rendelkeznek, amelyek biztosítják a környezetvédelmi szabványoknak való megfelelést. A járműparkunk részeként elérhető MEGA kivitelű nyerges szerelvények kiemelkedően magas, 3 méteres belmagassággal rendelkeznek, lehetővé téve a hatékony és biztonságos rakodást. Minden pótkocsink XL-code tanusítvánnyal és rolóponyvával rendelkezik. A GPS nyomkövetés biztosítja a járműveink pontos követését és elérhetőségét minden pillanatban.",
            attributes:[
             {
                 name:"Össztömeg",
@@ -35,19 +35,38 @@ export const data = {
             { value:"Mennyiség: 25db" }
            ],
            icon:require("../../assets/img/icons/icon-02-primary.png"),
-           main_pic: require("../../assets/img/trucks/1.jpg"),
+           main_pic: require("../../assets/img/trucks/big/01.jpg"),
            more_pics:[
             {
-               pic:require("../../assets/img/trucks/2.jpg")
+               pic:require("../../assets/img/trucks/big/02.jpg")
             },
             {
-               pic:require("../../assets/img/trucks/3.jpg")
+               pic:require("../../assets/img/trucks/big/03.jpg")
             },
             {
-               pic:require("../../assets/img/trucks/4.jpg")
+               pic:require("../../assets/img/trucks/big/04.jpg")
             },
-           
-           
+            {
+                pic:require("../../assets/img/trucks/big/05.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/06.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/07.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/08.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/09.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/10.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/big/11.jpg")
+             },
            ]
         },
         { 
@@ -87,17 +106,12 @@ export const data = {
                 { value:"Mennyiség: 8db" }
                ],
             icon:require("../../assets/img/icons/icon-10.png"),
-            main_pic: require("../../assets/img/trucks/5.jpg"),
+            main_pic: require("../../assets/img/trucks/little/01.jpg"),
             more_pics:[
                {
-                  pic: require("../../assets/img/trucks/6.jpg"), 
+                  pic: require("../../assets/img/trucks/little/02.jpg"), 
                },
-               {
-                  pic: require("../../assets/img/trucks/7.jpg"), 
-               },
-               {
-                  pic: require("../../assets/img/trucks/8.jpg"), 
-               },
+              
             ]
          },
          { 
@@ -131,16 +145,22 @@ export const data = {
                 { value:"Mennyiség: 6db" }
             ],
             icon:require("../../assets/img/icons/van.png"),
-            main_pic: require("../../assets/img/trucks/9.jpg"),
+            main_pic: require("../../assets/img/trucks/van/01.jpg"),
             more_pics:[
              {
-                pic:require("../../assets/img/trucks/10.jpg")
+                pic:require("../../assets/img/trucks/van/02.jpg")
              },
              {
-                pic:require("../../assets/img/trucks/11.jpg")
+                pic:require("../../assets/img/trucks/van/03.jpg")
              },
              {
-                pic:require("../../assets/img/trucks/4.jpg")
+                pic:require("../../assets/img/trucks/van/04.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/van/05.jpg")
+             },
+             {
+                pic:require("../../assets/img/trucks/van/06.jpg")
              },
             
             
